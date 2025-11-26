@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double JYProgressHUDVersionNumber;
 FOUNDATION_EXPORT const unsigned char JYProgressHUDVersionString[];
 
 // In this header, you should import all the public headers of your framework.
-#import <JYProgressHUD/JYProgressHUD-Swift.h>
+// Swift classes are automatically exposed to Objective-C via the generated -Swift.h header
 

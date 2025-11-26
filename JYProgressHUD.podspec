@@ -15,8 +15,7 @@ It provides a clean and simple API for displaying progress indicators, labels, a
   s.ios.deployment_target = '17.0'
   s.swift_version = '5.9'
 
-  s.source_files = 'JYProgressHUD/**/*.{h,m,swift}'
-  s.public_header_files = 'JYProgressHUD/**/*.h'
+  s.source_files = 'JYProgressHUD/**/*.swift'
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics', 'Combine'
   s.requires_arc = true
 end
